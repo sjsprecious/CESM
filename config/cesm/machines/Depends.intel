@@ -26,12 +26,12 @@ dSFMT.o \
 dSFMT_utils.o \
 kissvec.o
 
--PUMAS_MG_OBJS=\
--micro_mg1_0.o \
--micro_mg3_0.o \
--micro_pumas_data.o \
--micro_pumas_utils.o \
--wv_sat_methods.o
+PUMAS_MG_OBJS=\
+micro_mg1_0.o \
+micro_mg3_0.o \
+micro_pumas_data.o \
+micro_pumas_utils.o \
+wv_sat_methods.o
 
 ifeq ($(DEBUG),FALSE)
   $(PERFOBJS): %.o: %.F90
